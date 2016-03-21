@@ -11,4 +11,10 @@ public class Constant {
     public static final float ICICLES_HEIGHT = 1.0f;
     public static final float ICICLES_WIDTH = 0.5f;
     public static final Color ICICLES_COLOR = Color.WHITE;
+
+    public static final float PLAYER_HEAD_RADIUS = 0.5f;
+    public static final float PLAYER_HEAD_HEIGHT = 4.0f * PLAYER_HEAD_RADIUS;
+    public static final float PLAYER_LIMB_WIDTH = 0.1f;
+    public static final int PLAYER_HEAD_SEGMENTS = 20;
+    public static final Color PLAYER_COLOR = Color.BLACK;
 }
