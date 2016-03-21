@@ -41,6 +41,7 @@ public class IciclesScreen implements Screen {
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
         shapeRenderer.setProjectionMatrix(extendViewport.getCamera().combined);
+        player.update(delta);
 
         shapeRenderer.begin();
         icicle.render(shapeRenderer);

@@ -17,4 +17,7 @@ public class Constant {
     public static final float PLAYER_LIMB_WIDTH = 0.1f;
     public static final int PLAYER_HEAD_SEGMENTS = 20;
     public static final Color PLAYER_COLOR = Color.BLACK;
+
+    public static final float PLAYER_ACCELERATION = 10.0f;
+
 }
